@@ -1,9 +1,9 @@
-apple = "Yamagata"
+total_price = 100
 
-if apple == "Nagano"
-	puts "りんごの生産地は長野です"
-elsif apple == "Yamagata"
-	puts "りんごの生産地は山形です"
+if total_price > 100
+	puts "みかんを購入。所持金に余りあり"
+elsif total_price == 100
+	puts "みかんを購入。所持金は0円"
 else
-	puts "りんごの生産地は青森です"
+	puts "みかんを購入することができません。"
 end
